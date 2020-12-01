@@ -9,9 +9,10 @@ export default function Contact () {
         <div className='Contact'>
             <img className='avatar' src={avatar} alt="avatar"/>
             <div>
-                <h4 className='name'>{name}</h4>
+                <p className='name'>{name}</p>
                 <div className='status'>
-                    <div className='status-online '>{status ? 'online' : 'offline'}</div>
+                    <div className='status-online ' />
+                        <p className='status-text'>{status ? 'online' : 'offline'}</p>
                 </div>
             </div>
         </div>
